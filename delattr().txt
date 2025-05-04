@@ -1,0 +1,8 @@
+# delattr() -> deletes an attribute
+# syntax: delattr(obj_name,'attr_name')
+class cat:
+    def __init__(self):
+        self.age=30
+p=cat()
+delattr(p,'age')
+print(hasattr(p,'age'))
